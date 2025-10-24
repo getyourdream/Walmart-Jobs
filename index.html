@@ -1,10 +1,541 @@
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Redirecting…</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Walmart Careers — Start Your Journey With Us</title>
+  <meta name="description" content="Join Walmart — retail careers with advancement opportunities, competitive benefits, and community impact. Apply for store, distribution, and corporate roles." />
+  <meta property="og:title" content="Walmart Careers — Start Your Journey With Us" />
+  <meta property="og:description" content="Join Walmart — retail careers with advancement opportunities, competitive benefits, and community impact. Apply now." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3" />
+  <meta name="theme-color" content="#0071ce" />
 
-  <!-- Instant redirect for CPA tracking -->
-  <script>
-    window.location.replace("https://smrturl.co/a/sf9ce48c1f2/9851?s1=");
-  </script>
+  <!-- Fonts & icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet">
+
+  <style>
+    :root{
+      --walmart-blue:#0071ce;
+      --walmart-dark:#004c91;
+      --walmart-accent:#ffc220;
+      --walmart-light:#f0f8ff;
+      --muted:#6b7280;
+    }
+    html,body{height:100%}
+    body{
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(180deg,#f0f8ff 0%, #e6f2ff 100%);
+      color:#0f172a;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+    .brand { background: linear-gradient(90deg,var(--walmart-blue), var(--walmart-dark)); color:white; }
+    .card { background: white; border-radius: 16px; box-shadow: 0 12px 40px rgba(2,6,23,0.06); }
+    .glass { background: rgba(255,255,255,0.6); backdrop-filter: blur(6px); border-radius:12px; }
+    .btn-wm { background: linear-gradient(90deg,var(--walmart-blue),var(--walmart-dark)); color:#fff; font-weight:600; }
+    .btn-ghost { background:transparent; border:1px solid rgba(15,23,42,0.06); }
+    .floating { animation: float 6s ease-in-out infinite; }
+    @keyframes float { 0%{transform:translateY(0)}50%{transform:translateY(-8px)}100%{transform:translateY(0)} }
+    .pulse { animation: pulse 2.8s infinite; }
+    @keyframes pulse {0%{box-shadow:0 0 0 0 rgba(0,113,206,0.25)}70%{box-shadow:0 0 0 14px rgba(0,113,206,0)}100%{box-shadow:0 0 0 0 rgba(0,113,206,0)}}
+    .job-card:hover{ transform: translateY(-8px); transition: all .25s ease; box-shadow: 0 32px 80px rgba(2,6,23,0.12); }
+    .accent-line{ height:4px; background: linear-gradient(90deg,var(--walmart-blue), var(--walmart-accent)); border-radius:6px; }
+    .trust-badge{ display:inline-flex; gap:8px; align-items:center; background:linear-gradient(90deg,#ffffff,#f0f8ff); padding:8px 12px; border-radius:999px; box-shadow:0 8px 24px rgba(15,23,42,0.06); }
+    .sticky-cta{ position:fixed; right:18px; bottom:28px; z-index:70; display:flex; gap:10px; align-items:center; }
+    footer { background:#0f172a; color:#e6eef0; }
+    .label { font-size:12px; color:var(--muted); }
+    .verified-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: #f0f8ff;
+      padding: 4px 8px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #0071ce;
+    }
+    @media (max-width:768px){ .desktop-only{ display:none; } .hero-grid{ grid-template-columns:1fr !important; } }
+  </style>
 </head>
+<body>
+
+  <!-- HEADER -->
+  <header class="sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between bg-white card">
+      <div class="flex items-center gap-4">
+        <div class="w-12 h-12 rounded-lg flex items-center justify-center brand text-white shadow">
+          <i class="fas fa-shopping-cart fa-lg"></i>
+        </div>
+        <div>
+          <h1 class="text-lg font-bold">Walmart — Careers</h1>
+          <p class="text-xs text-gray-500">Save money. Live better. Work better.</p>
+        </div>
+      </div>
+
+      <nav class="hidden md:flex items-center gap-6 text-sm text-gray-700">
+        <a href="#jobs" class="hover:text-gray-900">Jobs</a>
+        <a href="#process" class="hover:text-gray-900">How We Hire</a>
+        <a href="#benefits" class="hover:text-gray-900">Benefits</a>
+        <a href="#apply" class="hover:text-gray-900">Apply</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a href="https://www.af9m8trk.com/7LF11GDF/1CT127E5/?s1=piash" class="btn-wm px-5 py-2 rounded-full text-sm shadow">Apply Now</a>
+        <button class="desktop-only btn-ghost px-4 py-2 rounded-full text-sm"><i class="fas fa-phone-alt mr-2"></i>Contact</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- VERIFICATION BAR -->
+  <div class="bg-blue-50 py-2 px-6">
+    <div class="max-w-7xl mx-auto flex items-center justify-center gap-6 text-sm">
+      <div class="verified-badge">
+        <i class="fab fa-meta text-blue-600"></i> Meta Verified
+      </div>
+      <div class="verified-badge">
+        <i class="fab fa-google text-blue-600"></i> Google Verified
+      </div>
+      <div class="verified-badge">
+        <i class="fas fa-shield-alt text-green-600"></i> BBB Accredited
+      </div>
+      <div class="verified-badge">
+        <i class="fas fa-lock text-green-600"></i> Secure Hiring
+      </div>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <main class="mt-8">
+    <section class="max-w-7xl mx-auto px-6 py-10">
+      <div class="grid grid-cols-12 gap-8 items-center hero-grid" style="grid-template-columns: 7fr 5fr;">
+        <div class="col-span-7">
+          <h2 class="text-4xl md:text-5xl font-extrabold leading-tight">Start your journey with a company that invests in you — <span style="background:linear-gradient(90deg,#0071ce,#ffc220); -webkit-background-clip:text; -webkit-text-fill-color:transparent;">Walmart</span></h2>
+          <p class="mt-4 text-lg text-gray-600 max-w-2xl">Join our store teams, distribution centers, and corporate support roles — competitive pay, benefits, and a path to leadership.</p>
+
+          <div class="mt-6 flex flex-wrap gap-4">
+            <a href="https://www.af9m8trk.com/7LF11GDF/1CT127E5/?s1=piash" class="inline-flex items-center px-6 py-3 rounded-full btn-wm shadow-lg font-semibold hover:opacity-95">
+              <i class="fas fa-search mr-3"></i> Explore Roles
+            </a>
+            <a href="https://www.af9m8trk.com/7LF11GDF/1CT127E5/?s1=piash" class="inline-flex items-center px-6 py-3 rounded-full border border-gray-200 bg-white text-gray-700 font-semibold hover:shadow">
+              <i class="fas fa-file-alt mr-3"></i> Quick Apply
+            </a>
+          </div>
+
+          <div class="mt-8 grid sm:grid-cols-3 gap-4">
+            <div class="p-4 rounded-lg bg-white card flex items-start gap-3">
+              <div class="w-10 h-10 rounded-lg brand text-white flex items-center justify-center"><i class="fas fa-user-check"></i></div>
+              <div>
+                <div class="font-semibold">Fortune 1 Employer</div>
+                <div class="text-xs text-gray-500">Global leader in retail</div>
+              </div>
+            </div>
+            <div class="p-4 rounded-lg bg-white card flex items-start gap-3">
+              <div class="w-10 h-10 rounded-lg" style="background:linear-gradient(90deg,#ffc220,#ff9500); color:white; display:flex; align-items:center; justify-content:center;"><i class="fas fa-award"></i></div>
+              <div>
+                <div class="font-semibold">Competitive Pay</div>
+                <div class="text-xs text-gray-500">Industry-leading wages</div>
+              </div>
+            </div>
+            <div class="p-4 rounded-lg bg-white card flex items-start gap-3">
+              <div class="w-10 h-10 rounded-lg" style="background:linear-gradient(90deg,#0071ce,#004c91); color:white; display:flex; align-items:center; justify-content:center;"><i class="fas fa-hands-helping"></i></div>
+              <div>
+                <div class="font-semibold">Community Focus</div>
+                <div class="text-xs text-gray-500">$1B+ in annual giving</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dynamic stats -->
+          <div class="mt-8 grid sm:grid-cols-3 gap-4">
+            <div class="p-4 rounded-lg bg-white card text-center">
+              <div class="text-sm text-gray-500">Open roles</div>
+              <div class="text-2xl font-bold" id="stat-open">12,847</div>
+            </div>
+            <div class="p-4 rounded-lg bg-white card text-center">
+              <div class="text-sm text-gray-500">Hires this month</div>
+              <div class="text-2xl font-bold" id="stat-placed">24,506</div>
+            </div>
+            <div class="p-4 rounded-lg bg-white card text-center">
+              <div class="text-sm text-gray-500">Avg. recruiter response</div>
+              <div class="text-2xl font-bold">24 hrs</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-span-5 relative">
+          <div class="p-6 rounded-2xl bg-gradient-to-br from-blue-50 to-white card floating" aria-hidden="true">
+            <img src="https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=abcd" alt="team collaborating" class="rounded-xl w-full h-64 object-cover mb-4">
+            <div class="p-4 bg-white rounded-lg shadow-sm">
+              <div class="flex items-center justify-between">
+                <div>
+                  <div class="text-xs text-gray-500">Roles available</div>
+                  <div class="text-lg font-bold" id="roles-today">50+ categories</div>
+                </div>
+                <div class="text-right">
+                  <div class="text-xs text-gray-500">Avg time to start</div>
+                  <div class="text-lg font-semibold">3-7 days</div>
+                </div>
+              </div>
+              <div class="mt-4 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center text-white pulse"><i class="fas fa-handshake"></i></div>
+                <div class="text-sm text-gray-600">Over 10,000 stores nationwide hire regularly.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- decorative blob -->
+          <svg class="absolute -right-10 -top-12 w-64 h-64 opacity-10" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+            <g transform="translate(300,300)">
+              <path d="M120,-172C152,-136,178,-105,192,-72C206,-39,208,-3,202,31C196,65,182,97,156,127C130,157,92,186,54,191C16,196,-24,177,-62,156C-100,135,-136,112,-155,79C-174,46,-176,3,-171,-39C-166,-81,-154,-120,-129,-156C-103,-192,-64,-224,-24,-231C16,-238,56,-219,120,-172Z" fill="#0071ce"></path>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUSTED PARTNERS -->
+    <section class="max-w-7xl mx-auto px-6 py-8">
+      <div class="text-center mb-6">
+        <h3 class="text-2xl font-bold">Trusted By Leading Organizations</h3>
+        <p class="text-gray-600 mt-2">We partner with industry leaders to provide the best opportunities</p>
+      </div>
+      <div class="flex flex-wrap justify-center items-center gap-8 py-6">
+        <div class="w-32 h-12 bg-white rounded-lg flex items-center justify-center card">
+          <i class="fab fa-linkedin text-2xl text-blue-700"></i>
+        </div>
+        <div class="w-32 h-12 bg-white rounded-lg flex items-center justify-center card">
+          <i class="fab fa-google text-2xl text-blue-500"></i>
+        </div>
+        <div class="w-32 h-12 bg-white rounded-lg flex items-center justify-center card">
+          <i class="fab fa-microsoft text-2xl text-blue-600"></i>
+        </div>
+        <div class="w-32 h-12 bg-white rounded-lg flex items-center justify-center card">
+          <i class="fab fa-amazon text-2xl text-orange-500"></i>
+        </div>
+        <div class="w-32 h-12 bg-white rounded-lg flex items-center justify-center card">
+          <i class="fab fa-apple text-2xl text-gray-800"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="process" class="max-w-7xl mx-auto px-6 py-12">
+      <div class="text-center mb-8">
+        <h3 class="text-3xl font-bold">How We Hire — Simple, Fair, Fast</h3>
+        <p class="text-gray-600 mt-2">Our streamlined process gets you from application to shift in days, not weeks.</p>
+      </div>
+      <div class="grid md:grid-cols-4 gap-6">
+        <article class="p-6 rounded-2xl bg-white card" aria-labelledby="step1">
+          <div class="flex items-start gap-4"><div class="w-12 h-12 rounded-lg brand text-white flex items-center justify-center"><i class="fas fa-file-alt"></i></div><div><h4 id="step1" class="font-semibold">Apply</h4><p class="text-sm text-gray-500">Complete a short profile and upload resume (optional).</p></div></div>
+        </article>
+        <article class="p-6 rounded-2xl bg-white card" aria-labelledby="step2">
+          <div class="flex items-start gap-4"><div class="w-12 h-12 rounded-lg" style="background:linear-gradient(90deg,#0071ce,#004c91); color:white; display:flex; align-items:center; justify-content:center;"><i class="fas fa-search"></i></div><div><h4 id="step2" class="font-semibold">Screen</h4><p class="text-sm text-gray-500">Quick phone screen to match your availability and location.</p></div></div>
+        </article>
+        <article class="p-6 rounded-2xl bg-white card" aria-labelledby="step3">
+          <div class="flex items-start gap-4"><div class="w-12 h-12 rounded-lg" style="background:linear-gradient(90deg,#ffc220,#ff9500); color:white; display:flex; align-items:center; justify-content:center;"><i class="fas fa-user-friends"></i></div><div><h4 id="step3" class="font-semibold">Interview</h4><p class="text-sm text-gray-500">Friendly in-store or phone interviews — no stress, just fit.</p></div></div>
+        </article>
+        <article class="p-6 rounded-2xl bg-white card" aria-labelledby="step4">
+          <div class="flex items-start gap-4"><div class="w-12 h-12 rounded-lg" style="background:linear-gradient(90deg,#0071ce,#004c91); color:white; display:flex; align-items:center; justify-content:center;"><i class="fas fa-briefcase"></i></div><div><h4 id="step4" class="font-semibold">Start</h4><p class="text-sm text-gray-500">Fast onboarding — start within days for many roles.</p></div></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- JOBS -->
+    <section id="jobs" class="max-w-7xl mx-auto px-6 py-12">
+      <div class="flex items-center justify-between mb-6">
+        <div><h3 class="text-2xl font-bold">Featured Roles</h3><p class="text-gray-600">Opportunities updated daily across stores and centers.</p></div>
+        <div class="text-sm text-gray-500">Showing <strong id="showing-count">48</strong> open roles</div>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <div class="p-6 rounded-2xl bg-white card job-card" role="article" aria-label="Store Associate">
+          <div class="flex items-start gap-4">
+            <div class="w-14 h-14 rounded-lg brand text-white flex items-center justify-center text-2xl"><i class="fas fa-user-tie"></i></div>
+            <div class="flex-1">
+              <div class="flex items-center justify-between">
+                <div>
+                  <h4 class="font-bold">Store Associate</h4>
+                  <div class="text-xs text-gray-500">Part-time / Full-time — Local stores</div>
+                </div>
+                <div class="text-right"><div class="text-green-600 font-semibold">$16–$20/hr</div><div class="text-xs text-gray-400">Immediate</div></div>
+              </div>
+              <p class="mt-3 text-sm text-gray-600">Provide exceptional service, maintain displays, and keep stores inviting.</p>
+              <div class="mt-4 flex items-center justify-between">
+                <div class="text-sm rating text-yellow-400"><i class="fas fa-star"></i> <span class="text-xs text-gray-400 ml-2">(4.8)</span></div>
+                <a class="inline-flex items-center px-4 py-2 rounded-full btn-wm text-sm" href="https://www.af9m8trk.com/7LF11GDF/1CT127E5/?s1=piash">Apply</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="p-6 rounded-2xl bg-white card job-card" role="article" aria-label="Assistant Manager">
+          <div class="flex items-start gap-4">
+            <div class="w-14 h-14 rounded-lg" style="background:linear-gradient(90deg,#0071ce,#004c91); color:white; display:flex; align-items:center; justify-content:center;"><i class="fas fa-user-shield"></i></div>
+            <div class="flex-1">
+              <div class="flex items-center justify-between">
+                <div>
+                  <h4 class="font-bold">Department Manager</h4>
+                  <div class="text-xs text-gray-500">Full-time — Store leadership</div>
+                </div>
+                <div class="text-right"><div class="text-green-600 font-semibold">$22–$28/hr</div><div class="text-xs text-gray-400">Flexible</div></div>
+              </div>
+              <p class="mt-3 text-sm text-gray-600">Lead a team, drive sales, and ensure a great customer experience.</p>
+              <div class="mt-4 flex items-center justify-between">
+                <div class="text-sm rating text-yellow-400"><i class="fas fa-star"></i> <span class="text-xs text-gray-400 ml-2">(4.7)</span></div>
+                <a class="inline-flex items-center px-4 py-2 rounded-full btn-wm text-sm" href="https://www.af9m8trk.com/7LF11GDF/1CT127E5/?s1=piash">Apply</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="p-6 rounded-2xl bg-white card job-card" role="article" aria-label="Warehouse Associate">
+          <div class="flex items-start gap-4">
+            <div class="w-14 h-14 rounded-lg" style="background:linear-gradient(90deg,#ffc220,#ff9500); color:white; display:flex; align-items:center; justify-content:center;"><i class="fas fa-boxes"></i></div>
+            <div class="flex-1">
+              <div class="flex items-center justify-between">
+                <div>
+                  <h4 class="font-bold">Distribution Center — Associate</h4>
+                  <div class="text-xs text-gray-500">Shift work — Regional DC</div>
+                </div>
+                <div class="text-right"><div class="text-green-600 font-semibold">$19–$25/hr</div><div class="text-xs text-gray-400">Shift</div></div>
+              </div>
+              <p class="mt-3 text-sm text-gray-600">Operate equipment, ensure accuracy, and keep products moving.</p>
+              <div class="mt-4 flex items-center justify-between">
+                <div class="text-sm rating text-yellow-400"><i class="fas fa-star"></i> <span class="text-xs text-gray-400 ml-2">(4.6)</span></div>
+                <a class="inline-flex items-center px-4 py-2 rounded-full btn-wm text-sm" href="https://www.af9m8trk.com/7LF11GDF/1CT127E5/?s1=piash">Apply</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- categories -->
+      <div class="mt-8 grid md:grid-cols-4 gap-4">
+        <a class="p-4 rounded-lg bg-white card flex items-center gap-3 hover:shadow" href="https://www.af9m8trk.com/7LF11GDF/1CT127E5/?s1=piash"><i class="fas fa-store w-10 h-10 rounded-lg bg-blue-500 text-white flex items-center justify-center"></i> Store Roles</a>
+        <a class="p-4 rounded-lg bg-white card flex items-center gap-3 hover:shadow" href="https://www.af9m8trk.com/7LF11GDF/1CT127E5/?s1=piash"><i class="fas fa-truck w-10 h-10 rounded-lg bg-yellow-500 text-white flex items-center justify-center"></i> Distribution</a>
+        <a class="p-4 rounded-lg bg-white card flex items-center gap-3 hover:shadow" href="https://www.af9m8trk.com/7LF11GDF/1CT127E5/?s1=piash"><i class="fas fa-briefcase w-10 h-10 rounded-lg bg-blue-600 text-white flex items-center justify-center"></i> Corporate</a>
+        <a class="p-4 rounded-lg bg-white card flex items-center gap-3 hover:shadow" href="https://www.af9m8trk.com/7LF11GDF/1CT127E5/?s1=piash"><i class="fas fa-graduation-cap w-10 h-10 rounded-lg bg-yellow-600 text-white flex items-center justify-center"></i> Training & Development</a>
+      </div>
+    </section>
+
+    <!-- TRUST & TESTIMONIALS -->
+    <section id="benefits" class="max-w-7xl mx-auto px-6 py-12">
+      <div class="flex items-center justify-between mb-6">
+        <div>
+          <h3 class="text-3xl font-bold">Benefits & Trust</h3>
+          <p class="text-gray-600">We invest in our teams — competitive benefits and proven hiring practices.</p>
+        </div>
+        <div class="flex gap-3">
+          <div class="trust-badge"><i class="fas fa-check-circle text-green-600"></i><div class="text-sm"><strong>Background checks</strong><div class="label">Fair & transparent</div></div></div>
+          <div class="trust-badge"><i class="fas fa-shield-alt text-blue-600"></i><div class="text-sm"><strong>Secure hiring</strong><div class="label">GDPR & privacy friendly</div></div></div>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl bg-gradient-to-br from-blue-50 to-white card">
+          <div class="flex items-center gap-3 mb-4">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah M" class="w-12 h-12 rounded-full object-cover">
+            <div>
+              <div class="font-semibold">Sarah M.</div>
+              <div class="text-xs text-gray-500">Store Associate</div>
+            </div>
+            <div class="ml-auto rating text-sm"><i class="fas fa-star text-yellow-400"></i></div>
+          </div>
+          <p class="text-gray-700">"I started as a part-time associate and within a year I was promoted to department manager. Walmart truly invests in growth."</p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-gradient-to-br from-yellow-50 to-white card">
+          <div class="flex items-center gap-3 mb-4">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael D" class="w-12 h-12 rounded-full object-cover">
+            <div>
+              <div class="font-semibold">Michael D.</div>
+              <div class="text-xs text-gray-500">Distribution Team</div>
+            </div>
+            <div class="ml-auto rating text-sm"><i class="fas fa-star text-yellow-400"></i></div>
+          </div>
+          <p class="text-gray-700">"The benefits package is incredible, and the tuition assistance program helped me finish my degree while working full-time."</p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-white card">
+          <div class="font-semibold mb-3">Case Study — Career Growth</div>
+          <p class="text-sm text-gray-600">75% of our store management team started as hourly associates. Our Pathways program provides clear advancement opportunities.</p>
+          <a class="mt-4 inline-flex items-center text-sm text-blue-600 font-semibold" href="https://www.af9m8trk.com/7LF11GDF/1CT127E5/?s1=piash">Read full case study <i class="fas fa-arrow-right ml-2"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- APPLY -->
+    <section id="apply" class="max-w-5xl mx-auto px-6 py-12">
+      <div class="bg-white rounded-3xl p-8 card">
+        <div class="flex items-center justify-between mb-6">
+          <div>
+            <h3 class="text-2xl font-bold">Apply Now — It only takes 2 minutes</h3>
+            <p class="text-sm text-gray-500">Secure form. Recruiter typically responds within 24–48 hours.</p>
+          </div>
+          <div class="text-sm text-gray-500 text-right">
+            <div>Secure & Confidential</div>
+            <div class="font-semibold text-blue-600">Privacy-first hiring</div>
+          </div>
+        </div>
+
+        <form id="applyForm" class="grid grid-cols-1 gap-4" onsubmit="handleApply(event)" aria-label="Walmart application form">
+          <div class="grid md:grid-cols-2 gap-4">
+            <input id="fullname" name="fullname" required placeholder="Full name*" class="p-3 border rounded-lg" />
+            <input id="email" name="email" type="email" required placeholder="Email*" class="p-3 border rounded-lg" />
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-4">
+            <input id="phone" name="phone" required placeholder="Phone number*" class="p-3 border rounded-lg" />
+            <select id="category" name="category" required class="p-3 border rounded-lg">
+              <option value="">Select position*</option>
+              <option>Store Associate</option>
+              <option>Department Manager</option>
+              <option>Distribution Center Associate</option>
+              <option>Corporate — HR / Ops</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="text-sm text-gray-600">Resume (optional)</label>
+            <input id="resume" name="resume" type="file" class="mt-2" />
+          </div>
+
+          <div>
+            <textarea id="notes" name="notes" rows="4" placeholder="Tell us about your experience..." class="p-3 border rounded-lg"></textarea>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <input id="agree" name="agree" type="checkbox" required />
+            <label for="agree" class="text-sm text-gray-600">I agree to the <a href="#" class="text-blue-600 underline">Privacy Policy</a> and Terms.</label>
+          </div>
+
+          <div class="flex items-center gap-4">
+            <button type="submit" class="btn-wm px-6 py-3 rounded-full text-sm font-semibold">Submit Application</button>
+            <div id="applyStatus" class="text-sm text-gray-600 hidden"><i class="fas fa-spinner fa-spin mr-2"></i>Processing...</div>
+          </div>
+
+          <div id="applyResult" class="hidden mt-4 p-3 rounded-lg text-sm"></div>
+        </form>
+      </div>
+    </section>
+
+    <!-- CONTACT & TRUST -->
+    <section class="max-w-7xl mx-auto px-6 py-12">
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl bg-white card">
+          <h4 class="font-semibold">Contact</h4>
+          <p class="text-sm text-gray-600 mt-2">Call: <strong>+1 (800) 555-0199</strong><br>Email: <strong>careers@walmart.com</strong></p>
+        </div>
+        <div class="p-6 rounded-2xl bg-white card">
+          <h4 class="font-semibold">Certifications</h4>
+          <p class="text-sm text-gray-600 mt-2">Compliant hiring practices, background checks, and secure data handling.</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-white card">
+          <h4 class="font-semibold">Why Walmart?</h4>
+          <ul class="text-sm text-gray-600 mt-3 space-y-2">
+            <li>• Fortune 1 company with global impact</li>
+            <li>• Competitive pay, PTO, and benefits</li>
+            <li>• Training & leadership programs for career growth</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Sticky CTA -->
+  <div class="sticky-cta" role="navigation" aria-label="Quick actions">
+    <a href="https://www.af9m8trk.com/7LF11GDF/1CT127E5/?s1=piash" class="btn-wm px-5 py-3 rounded-full">Apply</a>
+    <button onclick="openChat()" class="btn-ghost px-4 py-3 rounded-full"><i class="fas fa-comments mr-2"></i> Chat</button>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="mt-12">
+    <div class="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-3 gap-6">
+      <div>
+        <h4 class="text-lg font-bold">Walmart</h4>
+        <p class="text-sm text-gray-300 mt-3">Save money. Live better. Work better.</p>
+        <div class="flex gap-3 mt-4">
+          <a class="w-9 h-9 rounded-full bg-blue-600 flex items-center justify-center" href="#" aria-label="facebook"><i class="fab fa-facebook-f"></i></a>
+          <a class="w-9 h-9 rounded-full bg-blue-400 flex items-center justify-center" href="#" aria-label="twitter"><i class="fab fa-twitter"></i></a>
+          <a class="w-9 h-9 rounded-full bg-blue-700 flex items-center justify-center" href="#" aria-label="linkedin"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+      <div class="text-sm text-gray-300">
+        <h5 class="font-semibold">Quick Links</h5>
+        <ul class="mt-3 space-y-2">
+          <li><a href="#jobs" class="hover:underline">Jobs</a></li>
+          <li><a href="#process" class="hover:underline">How We Hire</a></li>
+          <li><a href="#apply" class="hover:underline">Apply</a></li>
+        </ul>
+      </div>
+
+      <div class="text-sm text-gray-300">
+        <h5 class="font-semibold">Support</h5>
+        <ul class="mt-3 space-y-2">
+          <li><a href="#" class="hover:underline">Help Center</a></li>
+          <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+          <li><a href="#" class="hover:underline">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="border-t border-gray-800 py-6 text-center text-sm text-gray-400">
+      © 2025 Walmart. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    // Simple dynamic counters (animate numbers)
+    function animateNumber(id, start, end, duration) {
+      const el = document.getElementById(id);
+      if(!el) return;
+      let startTime = null;
+      const step = (timestamp) => {
+        if (!startTime) startTime = timestamp;
+        const progress = Math.min((timestamp - startTime) / duration, 1);
+        el.textContent = Math.floor(progress * (end - start) + start).toLocaleString();
+        if (progress < 1) {
+          window.requestAnimationFrame(step);
+        }
+      };
+      window.requestAnimationFrame(step);
+    }
+    document.addEventListener('DOMContentLoaded', ()=>{
+      animateNumber('stat-open', 8000, 12847, 1400);
+      animateNumber('stat-placed', 15000, 24506, 1600);
+    });
+
+    // Apply form handler (simulated)
+    function handleApply(e){
+      e.preventDefault();
+      const status = document.getElementById('applyStatus');
+      const result = document.getElementById('applyResult');
+      status.classList.remove('hidden');
+      result.classList.add('hidden');
+      setTimeout(()=>{
+        status.classList.add('hidden');
+        result.classList.remove('hidden');
+        result.classList.add('p-3','rounded-lg','bg-blue-50','text-blue-700');
+        result.innerText = 'Thanks — your application has been received. A recruiter will contact you within 24–48 hours.';
+        e.target.reset();
+      }, 1200);
+    }
+
+    function openChat(){ alert('Live chat placeholder — integrate with your chat provider.'); }
+
+    // Accessibility improvements
+    document.body.addEventListener('keydown', (e)=>{
+      if(e.key === 'Tab'){ document.documentElement.style.scrollBehavior = 'smooth'; }
+    });
+  </script>
+</body>
+</html>
